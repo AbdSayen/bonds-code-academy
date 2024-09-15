@@ -1,0 +1,30 @@
+@import './variables';
+
+.home {
+  background-image: url(./../assets/images/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16rem 0;
+
+    h1 {
+      padding: 0 8rem;
+      font-family: 'press start';
+      width: 30%;
+      text-align: center;
+      rotate: -0.3rad;
+      font-size: 3rem;
+      color: $text-color;
+    }
+    p{
+      font-size: 1.75rem;
+      width: 45%;
+      text-align: right;
+    }
+  }
+}

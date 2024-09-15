@@ -1,0 +1,28 @@
+@import './variables';
+
+body {
+  font-family: 'oswald';
+  color: $text-color;
+  background-color: $background-color;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 1460px;
+  margin: auto;
+}
+
+@font-face {
+  font-family: 'oswald';
+  src: url(./../assets/fonts/oswald.ttf);
+}
+
+@font-face {
+  font-family: 'press start';
+  src: url(./../assets/fonts/PressStart2P.ttf);
+}
+
+h1, h2, h3 {
+  color: $primary-color;
+}
