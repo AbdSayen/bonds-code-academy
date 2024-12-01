@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16rem 0;
+    padding: 20rem 0;
 
     h1 {
       padding: 0 8rem;
@@ -25,6 +25,17 @@
       font-size: 1.75rem;
       width: 45%;
       text-align: right;
+    }
+  }
+}
+
+.start {
+  margin: auto;
+  text-align: center;
+  margin: 10rem;
+  h1 {
+    a {
+      font-size: 2rem;
     }
   }
 }

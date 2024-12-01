@@ -13,9 +13,9 @@ function Header() {
         </svg>
         <nav>
             <ul>
-              <li><Link to="/">Главная</Link></li>
-              <li><Link to="/materials">Учебные материалы</Link></li>
-              <li><Link to="/assignments">Задания</Link></li>
+              <li className='button'><Link to="/">Главная</Link></li>
+              <li className='button'><Link to="/materials">Учебные материалы</Link></li>
+              <li className='button'><Link to="/assignments">Задания</Link></li>
             </ul>
         </nav>
         <p className='number'>+(994) 556677100</p>
